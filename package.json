@@ -12,7 +12,7 @@
     "start": "jasminetea --file index.coffee --watch",
     "localhost": "zuul test --ui jasmine2 --local 59798 --open",
 
-    "test": "jasminetea --file index.coffee --cover --report",
+    "test": "jasminetea --file index.coffee --report",
     "test-cloud": "zuul test && echo ok || echo skip posttest",
 
     "prepublish": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && npm run compile || echo skip prepublish",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "omggif": "^1.0.8",
-    "pixel-util": "^0.0.2"
+    "pixel-util": "TeamWertarbyte/pixel-util"
   },
   "devDependencies": {
     "brfs": "^1.4.1",
