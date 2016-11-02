@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "omggif": "^1.0.8",
-    "pixel-util": "github:teamwertarbyte/pixel-util#dd0d51bf051060310238a151126624fb7a96b8b3"
+    "pixel-util": "github:teamwertarbyte/pixel-util#be0584fc3d644a0b978ed8e0368f587db397e83c"
   },
   "devDependencies": {
     "brfs": "^1.4.1",
